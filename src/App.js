@@ -4,6 +4,11 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Product from './routes/Product'
 import Contact from './routes/Contact'
+import Honey from './routes/Honey'
+import OliveOil from './routes/OliveOil'
+import Wine from './routes/Wine'
+import Olives from './routes/Olives'
+import Herbs from './routes/Herbs'
 
 function App() {
 	return (
@@ -14,6 +19,11 @@ function App() {
 					<Route path="/about" element={<About />} />
 					<Route path="/product" element={<Product />} />
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/honey" element={<Honey />} />
+					<Route path="/herbs" element={<Herbs />} />
+					<Route path="/oliveOil" element={<OliveOil />} />
+					<Route path="/olives" element={<Olives />} />
+					<Route path="/wine" element={<Wine />} />
 				</Routes>
 			</Router>
 		</div>

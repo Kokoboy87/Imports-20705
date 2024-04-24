@@ -7,7 +7,7 @@ import Olives from '../assets/images/Olives1.jpg'
 import Herbs from '../assets/images/Herbs.jpg'
 import Honey from '../assets/images/Honey2.jpg'
 
-//$ This is the Products List in the Product page //
+//$ This is the Products List in the Product page
 
 function ProductCards() {
 	return (

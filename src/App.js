@@ -9,11 +9,13 @@ import OliveOil from './routes/OliveOil'
 import Wine from './routes/Wine'
 import Olives from './routes/Olives'
 import Herbs from './routes/Herbs'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 	return (
 		<div className="App">
 			<Router>
+				<ScrollToTop />
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />

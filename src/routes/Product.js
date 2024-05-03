@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import ProductImg from '../assets/images/Product2.jpg'
+import ProductImg from '../assets/images/Product2.webp'
 import Footer from '../components/Footer'
 import ProductCards from '../components/ProductCards'
 

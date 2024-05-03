@@ -3,8 +3,8 @@ import './CardItemStyles.css'
 import CardItem from './CardItem'
 import OliveOil from '../assets/images/OliveOil1.jpg'
 import Wine from '../assets/images/Wine2.jpg'
-import Olives from '../assets/images/Olives1.jpg'
-import Herbs from '../assets/images/Herbs.jpg'
+import Olives from '../assets/images/Olives1.webp'
+import Herbs from '../assets/images/Herbs.webp'
 import Honey from '../assets/images/Honey2.jpg'
 
 //$ This is the Products List in the Product page

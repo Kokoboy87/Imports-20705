@@ -1,4 +1,4 @@
-import './AboutUsStyles.css'
+import '../components/styles/AboutUsStyles.css'
 
 function AboutUs() {
 	return (

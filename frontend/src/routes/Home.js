@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
-import HeroImg from '../assets/images/Hero11.webp'
+import HeroImg from '../assets/images/Hero1.webp'
 import HomeInfo from '../components/HomeInfo'
 import Footer from '../components/common/Footer'
 

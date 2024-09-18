@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import '../styles/ProductDataStyles.css'
+import '../styles/HomeInfoStyles.css'
 
 //$ This is the Greek Product in the first/hero page//
 class ProductData extends Component {

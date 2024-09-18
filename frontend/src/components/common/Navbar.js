@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import '../components/styles/NavbarStyles.css'
+import '../styles/NavbarStyles.css'
 import {MenuItems} from '../MenuItems'
-import NavLogo from '../assets/images/Imports_20705_ solid.png'
+import NavLogo from '../../assets/images/Imports_20705_ solid.png'
 
 class Navbar extends Component {
 	state = {clicked: false}

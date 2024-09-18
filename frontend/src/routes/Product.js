@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
 import ProductImg from '../assets/images/Product2.webp'
 import Footer from '../components/common/Footer'

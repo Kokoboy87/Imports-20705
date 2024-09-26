@@ -12,8 +12,6 @@ import Herbs from './routes/Herbs'
 import ScrollToTop from './components/common/ScrollToTop'
 import {Amplify} from 'aws-amplify'
 import awsconfig from './aws-exports'
-
-// Configure Amplify
 Amplify.configure(awsconfig)
 
 function App() {

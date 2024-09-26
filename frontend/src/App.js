@@ -10,6 +10,11 @@ import Wine from './routes/Wine'
 import Olives from './routes/Olives'
 import Herbs from './routes/Herbs'
 import ScrollToTop from './components/common/ScrollToTop'
+import {Amplify} from 'aws-amplify'
+import awsconfig from './aws-exports'
+
+// Configure Amplify
+Amplify.configure(awsconfig)
 
 function App() {
 	return (

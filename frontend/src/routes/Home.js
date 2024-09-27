@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
-import HeroImg from '../assets/images/Hero2.JPG'
+//import HeroImg from '../assets/images/Hero1.webp'
 import HomeInfo from '../components/HomeInfo'
 import Footer from '../components/common/Footer'
 
 export default function Home() {
+	const HeroImg = require('../assets/images/Hero1.webp')
 	return (
 		<>
 			<Navbar />

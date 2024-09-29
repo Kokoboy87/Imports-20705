@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
-import ContactImg from '../assets/images/Contact.webp'
+const ContactImg = require('https://imports20705-images.s3.amazonaws.com/Contact.webp')
 import Footer from '../components/common/Footer'
 import ContactForm from '../components/ContactForm'
 

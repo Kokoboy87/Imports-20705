@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
-import ProductImg from '../assets/images/Product2.webp'
+const ProductImg = require('https://imports20705-images.s3.amazonaws.com/Product2.webp')
 import Footer from '../components/common/Footer'
 import ProductCards from '../components/product/ProductCards'
 

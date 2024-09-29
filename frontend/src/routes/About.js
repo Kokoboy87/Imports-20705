@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
-import AboutImg from '../assets/images/About.webp'
+const AboutImg = require('https://imports20705-images.s3.amazonaws.com/About.webp')
 import Footer from '../components/common/Footer'
 import AboutUs from '../components/AboutUs'
 

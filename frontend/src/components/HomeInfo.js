@@ -1,5 +1,5 @@
-import Wine1 from '../assets/images/Wine1.jpg'
-import Wine2 from '../assets/images/Wine2.jpg'
+const Wine1 = require('https://imports20705-images.s3.amazonaws.com/Wine1.jpg')
+const Wine2 = require('https://imports20705-images.s3.amazonaws.com/Wine2.jpg')
 import OliveOil1 from '../assets/images/OliveOil1.jpg'
 import OliveOil2 from '../assets/images/OliveOil2.jpg'
 import Honey1 from '../assets/images/Honey1.jpg'

@@ -1,11 +1,16 @@
-const Wine1 = require('https://imports20705-images.s3.amazonaws.com/Wine1.jpg')
-const Wine2 = require('https://imports20705-images.s3.amazonaws.com/Wine2.jpg')
-import OliveOil1 from '../assets/images/OliveOil1.jpg'
-import OliveOil2 from '../assets/images/OliveOil2.jpg'
-import Honey1 from '../assets/images/Honey1.jpg'
-import Honey2 from '../assets/images/Honey2.jpg'
+//import OliveOil1 from '../assets/images/OliveOil1.jpg'
+//import OliveOil2 from '../assets/images/OliveOil2.jpg'
+//import Honey1 from '../assets/images/Honey1.jpg'
+//import Honey2 from '../assets/images/Honey2.jpg'
 import '../components/styles/HomeInfoStyles.css'
 import ProductData from './product/ProductData'
+
+const Wine1 = 'https://imports20705-images.s3.amazonaws.com/Wine1.jpg'
+const Wine2 = 'https://imports20705-images.s3.amazonaws.com/Wine2.jpg'
+const OliveOil1 = 'https://imports20705-images.s3.amazonaws.com/OliveOil1.jpg'
+const OliveOil2 = 'https://imports20705-images.s3.amazonaws.com/OliveOil2.jpg'
+const Honey1 = 'https://imports20705-images.s3.amazonaws.com/Honey1.jpg'
+const Honey2 = 'https://imports20705-images.s3.amazonaws.com/Honey2.jpg'
 
 const HomeInfo = () => {
 	return (

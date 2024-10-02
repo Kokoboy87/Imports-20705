@@ -1,11 +1,16 @@
 import React from 'react'
 import '../styles/CardItemStyles.css'
 import CardItem from '../CardItem'
-import OliveOil from '../../assets/images/OliveOil1.jpg'
-import Wine from '../../assets/images/Wine2.jpg'
-import Olives from '../../assets/images/Olives1.webp'
-import Herbs from '../../assets/images/Herbs.webp'
-import Honey from '../../assets/images/Honey2.jpg'
+//import Wine from '../assets/images/Wine2.jpg'
+//import Olives from '../assets/images/Olives1.webp'
+//import Herbs from '../assets/images/Herbs.webp'
+//import Honey from '../../assets/images/Honey2.jpg'
+
+const Olives = 'https://imports20705-images.s3.amazonaws.com/Olives1.webp'
+const Herbs = 'https://imports20705-images.s3.amazonaws.com/Herbs.webp'
+const Wine = 'https://imports20705-images.s3.amazonaws.com/Wine2.jpg'
+const Honey = 'https://imports20705-images.s3.amazonaws.com/Honey2.jpg'
+const OliveOil = 'https://imports20705-images.s3.amazonaws.com/OliveOil1.jpg'
 
 //$ This is the Products List in the Product page
 

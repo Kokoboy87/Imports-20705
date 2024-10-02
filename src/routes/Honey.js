@@ -1,29 +1,17 @@
-//import React from 'react'
-
-//export default function Olives() {
-//	return (
-//		<div>
-//			<h1>Olives</h1>
-//		</div>
-//	)
-//}
-
-//$ Test //
-
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import ProductCard from '../components/product/ProductCard' // Import the reusable product card component
 import axios from 'axios'
 
-export default function Olives() {
+export default function Honey() {
 	const [products, setProducts] = useState([])
 
 	useEffect(() => {
 		const fetchProducts = async () => {
 			try {
-				const response = await axios.get('/api/products/olives') // Fetch from your API
+				const response = await axios.get('/api/products/honey') // Fetch from your API
 				setProducts(response.data)
 			} catch (error) {
-				console.error('Error fetching olive products', error)
+				console.error('Error fetching honey products', error)
 			}
 		}
 

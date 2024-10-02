@@ -1,6 +1,7 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../styles/FooterStyles.css'
-import NavLogo from '../../assets/images/NavbarLogo.png'
+
+const NavLogo = 'https://imports20705-images.s3.amazonaws.com/NavbarLogo.png'
 
 const Footer = () => {
 	return (

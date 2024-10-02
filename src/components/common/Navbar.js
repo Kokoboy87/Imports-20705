@@ -1,13 +1,14 @@
-import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/NavbarStyles.css'
-import {MenuItems} from '../MenuItems'
-import NavLogo from '../../assets/images/Imports_20705_ solid.png'
+import { MenuItems } from '../MenuItems'
+
+const NavLogo = 'https://imports20705-images.s3.amazonaws.com/Imports_20705_+solid.png'
 
 class Navbar extends Component {
-	state = {clicked: false}
+	state = { clicked: false }
 	handleClick = () => {
-		this.setState({clicked: !this.state.clicked})
+		this.setState({ clicked: !this.state.clicked })
 	}
 	render() {
 		return (

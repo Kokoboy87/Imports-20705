@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
 import Hero from '../components/Hero'
-const HeroImg = require('https://imports20705-images.s3.amazonaws.com/Hero1.webp')
 import HomeInfo from '../components/HomeInfo'
 import Footer from '../components/common/Footer'
+
+const HeroImg = 'https://imports20705-images.s3.amazonaws.com/Hero1.webp'
 
 export default function Home() {
 	return (

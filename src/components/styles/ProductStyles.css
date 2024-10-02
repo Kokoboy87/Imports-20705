@@ -1,0 +1,50 @@
+/* General Styles for Product Pages */
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 20px;
+	padding-top: 25px;
+	margin: 110px 20px 20px 20px;
+}
+
+.product-card {
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
+
+.product-card:hover {
+	transform: scale(1.05);
+}
+
+.product-image {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ddd;
+}
+
+.product-text {
+	padding: 1rem;
+	text-align: center;
+}
+
+.product-text h3 {
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+.product-text p {
+	margin: 0.5rem 0 0;
+	font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 850px) {
+	.product-grid {
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	}
+}

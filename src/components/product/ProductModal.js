@@ -1,10 +1,15 @@
-// components/ProductModal.js
 import React from 'react'
+import '../styles/ProductModal.css'
 
-const ProductModal = ({product, closeModal}) => {
+const ProductModal = ({ product, closeModal }) => {
+	// Prevent event bubbling to avoid accidental close
+	const handleModalClick = (e) => {
+		e.stopPropagation() // Prevents the click from bubbling up to the parent
+	}
+
 	return (
-		<div className="modal">
-			<div className="modal-content">
+		<div className="modal" onClick={closeModal}>
+			<div className="modal-content" onClick={handleModalClick}>
 				<span className="close" onClick={closeModal}>
 					&times;
 				</span>

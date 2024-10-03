@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ProductModal.css'
+import '../styles/ProductModalStyles.css'
 
 const ProductModal = ({ product, closeModal }) => {
 	// Prevent event bubbling to avoid accidental close

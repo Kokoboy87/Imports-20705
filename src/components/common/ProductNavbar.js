@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/ProductNavbar.css' // New CSS file for the ProductNavbar
+import '../styles/ProductNavbarStyles.css' // New CSS file for the ProductNavbar
 import { MenuProduct } from '../MenuProduct' // Ensure this points to the correct file
 
 const NavLogo = 'https://imports20705-images.s3.amazonaws.com/Imports_20705_+solid.png'

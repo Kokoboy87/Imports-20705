@@ -40,3 +40,14 @@ button:hover {
 	background-color: #151516;
 	color: aliceblue;
 }
+
+@media screen and (max-width: 850px) {
+	.form-container {
+		margin: 4rem 2rem;
+	}
+
+	.form-container form {
+		padding-top: 2rem;
+		width: 90%;
+	}
+}

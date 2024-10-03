@@ -1,7 +1,3 @@
-//import OliveOil1 from '../assets/images/OliveOil1.jpg'
-//import OliveOil2 from '../assets/images/OliveOil2.jpg'
-//import Honey1 from '../assets/images/Honey1.jpg'
-//import Honey2 from '../assets/images/Honey2.jpg'
 import '../components/styles/HomeInfoStyles.css'
 import ProductData from './product/ProductData'
 
